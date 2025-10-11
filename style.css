@@ -135,4 +135,32 @@ blockquote {
     font-weight: 300;
 }
 
-.actioncall
+.actioncall {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 50px 300px;
+    color: #F9FAF8;
+    gap: 100px;
+    padding: 30px;
+}
+
+.actionbutton {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 1px solid #F9FAF8;
+    border-radius: 4px;
+    font-weight: 900;
+    width: 100px;
+    height: 40px;
+    padding: 12px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    padding: 50px;
+}
